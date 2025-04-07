@@ -1,0 +1,51 @@
+body {
+    margin: 0; /* el header ocupa todo el ancho */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main-header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+
+.main-header .container-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.nombre-empresa {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-right: 15px;
+}
+
+.logo-empresa {
+    height: 50px;
+    padding: 10px;
+}
+
+.logo-empresa img {
+    height: 100%;
+
+}
+.boton-header{
+    margin-left:auto;
+    padding: 30px;
+}
+.boton-header .boton{
+    background-color: #381ae2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 10px;
+
+}
