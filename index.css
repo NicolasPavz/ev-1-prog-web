@@ -11,10 +11,6 @@ h1, h2, h3 {
     font-weight: 500;
 }
 /* header */
-.container-header {
-    width: 95%;
-    margin: 0 auto;
-}
 
 .main-header {
     background-color: #1a1a1a;
@@ -23,7 +19,9 @@ h1, h2, h3 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.main-header .container-header{
+.container-header{
+    width: 95%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,14 +55,12 @@ h1, h2, h3 {
 }
 
 /* carta de presentacion */
-.presentacion-container {
+
+.presentacion{
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-    background-size: cover;
-    background-position: center;
     height: 600px;
-    display: flex;
-    align-items: center;
     justify-content: center;
+    align-content: center;
     color: #f9f9f9;
     text-align: center;
     padding: 60px 30px;
@@ -73,20 +69,17 @@ h1, h2, h3 {
     overflow: hidden;
 
 }
-.presentacion{
-    width: 100%;
-}
 
 /* titulo dentro carta presentacion*/
-.presentacion-container h1{
+.presentacion h1{
     font-size: 48px;
     margin-bottom: 16px;
+
 }
 
 /* texto dentro carta presentacion */
-.presentacion-container p {
+.presentacion p{
     font-size: 24px;
-    margin-bottom: 16px;
 }
 
 /* cuadro de imagen */
@@ -103,31 +96,27 @@ h1, h2, h3 {
 .vehiculos-texto{
     background: #f9f9f9;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    background-size: cover;
-    background-position: center;
     height: 600px;
-
-    align-items: center;
     justify-content: center;
+    align-content: center;
     color: black;
     text-align: center;
     padding: 60px 30px;
     margin: 0 auto;
+    flex-wrap: wrap;
+    overflow: hidden;
 
     
 }
-.vehiculos h1{
+.vehiculos-texto h1{
     font-size: 48px;
     margin-bottom: 16px;
-    align-items: center;
-    justify-content: center;
-    padding: 60px 30px;
+
 }
-.vehiculos p{
+.vehiculos-texto p{
     font-size: 24px;
     margin-bottom: 16px;
-    align-items: center;
-    justify-content: center;
+
 }
 
 /*vehiculos modelos img*/
