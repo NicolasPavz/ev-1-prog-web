@@ -25,7 +25,8 @@ h1, h2, h3 {
 
 .main-header .container-header{
     display: flex;
-    align-items: center;;
+    align-items: center;
+    justify-content: space-between;
 }
 /* nombre de la empresa */
 .nombre-empresa {
@@ -50,7 +51,6 @@ h1, h2, h3 {
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 10px;
-    transition: transform 0.3s, box-shadow 0.3s;
 }
 .boton-header{
     margin-left: auto;
@@ -61,22 +61,76 @@ h1, h2, h3 {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 600px;
     display: flex;
     align-items: center;
-    color: white;
+    justify-content: center;
+    color: #f9f9f9;
     text-align: center;
-    padding: 30px;
+    padding: 60px 30px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+}
+.presentacion{
+    width: 100%;
 }
 
 /* titulo dentro carta presentacion*/
 .presentacion-container h1{
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-/* texto dentro carta presentacion */
-.presentacion-container span {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+    font-size: 48px;
+    margin-bottom: 16px;
 }
 
+/* texto dentro carta presentacion */
+.presentacion-container p {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+/* cuadro de imagen */
+.imagen-1 img {
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}
+/*cuadro de texto de los vehiculos*/
+
+.vehiculos-texto{
+    background: #f9f9f9;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    padding: 60px 30px;
+    margin: 0 auto;
+
+    
+}
+.vehiculos h1{
+    font-size: 48px;
+    margin-bottom: 16px;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 30px;
+}
+.vehiculos p{
+    font-size: 24px;
+    margin-bottom: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*vehiculos modelos img*/
+.vehiculos-imagenes img{
+    display: flex;
+}
