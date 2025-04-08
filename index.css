@@ -91,35 +91,58 @@ h1, h2, h3 {
     margin: 0 auto;
     display: flex;
 }
-/*cuadro de texto de los vehiculos*/
+/*nuestros vehiculos*/
 
-.vehiculos-texto{
-    background: #f9f9f9;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    height: 600px;
-    justify-content: center;
-    align-content: center;
-    color: black;
+.vehiculos{
+    padding: 60px 0;
     text-align: center;
-    padding: 60px 30px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    overflow: hidden;
-
+    height: 600px;
     
 }
-.vehiculos-texto h1{
+
+.vehiculos h1{
     font-size: 48px;
     margin-bottom: 16px;
-
 }
-.vehiculos-texto p{
-    font-size: 24px;
+.vehiculos h2{
+    font-size: 36px;
     margin-bottom: 16px;
-
 }
 
-/*vehiculos modelos img*/
-.vehiculos-imagenes img{
+.vehiculos-container{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.vehiculo{
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.vehiculo:hover{
+    transform: translateY(-8px);
+}
+
+.vehiculo img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.vehiculo h3{
+    margin: 16px 0;
+}
+
+.vehiculo .precio{
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 16px 0;
+    color: #f0c14b;
 }
