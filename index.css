@@ -232,3 +232,84 @@ h1, h2, h3 {
 }
 
 /* Pagina desarrollador */
+@media screen and (min-width: 768px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin: 0 auto;
+    }
+
+
+    .presentacion-container {
+        grid-column: 1; 
+        grid-row: 1;
+    }
+
+    .presentacion {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        padding: 10px 10px;
+    }
+
+
+    .imagen-1 {
+        grid-column: 2; 
+        grid-row: 1;
+    }
+
+    
+    .vehiculos {
+        grid-column: 1/-1;
+        grid-row: 2;
+        padding: 40px 0;
+    }
+
+    .vehiculos-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+        justify-items: center;
+    }
+
+    .equipo-trabajo {
+        grid-column: 1/-1; 
+        grid-row: 3;
+    }
+
+    .equipo-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .miembro-equipo-1,
+    .miembro-equipo-2,
+    .miembro-equipo-3 {
+        width: 100%;
+        margin: 0;
+    }
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        margin: 0 auto;
+    }
+    .footer-redes{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .desarrollador{
+        grid-column: 3;
+        grid-row: 2;
+    }
+    .texto-footer{
+        grid-column: 2;
+        grid-row: 3;
+    }
+}
