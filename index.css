@@ -7,6 +7,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
 }
+
 h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
@@ -233,6 +234,48 @@ h1, h2, h3 {
 /* Pagina desarrollador */
 
 
+.container-perfil{
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 60px auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    height: 90vh;
+    align-content: center;
+}
+
+.container-perfil h1{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.about-me{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.link-github {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.link-github:hover {
+    background-color: #333;
+    color: black;
+    transition: background-color 0.5s ease;
+}
+
+.github-logo {
+    width: 24px;
+    height: 24px;
+}
 
 /*media queries*/
 @media screen and (min-width: 768px) {
