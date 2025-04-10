@@ -20,6 +20,10 @@ h1, h2, h3 {
     padding: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+.nombre-empresa a{
+    text-decoration: none;
+    color: white;
+}
 
 .container-header{
     width: 95%;
@@ -43,7 +47,7 @@ h1, h2, h3 {
 }
 
 /* boton del header */
-.boton-header .boton{
+.boton-header {
     background-color: #f0c14b;
     color: black;
     font-weight: bold;;
@@ -51,9 +55,14 @@ h1, h2, h3 {
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 10px;
-}
-.boton-header{
     margin-left: auto;
+    text-decoration: none;
+}
+
+.boton-header:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.5s ease;
 }
 
 /* carta de presentacion */
@@ -277,6 +286,62 @@ h1, h2, h3 {
     height: 24px;
 }
 
+/*contactenos*/
+
+.formulario-container{
+    justify-items: center;
+    background-color: #f9f9f9
+}
+
+.formulario-container h2{
+    font-weight: bold;
+    font-size: 34px;
+    padding: 10px;
+}
+.formulario-container p{
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.formulario{
+    margin-bottom: 15px;
+}
+
+.formulario label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulario input, .formulario select, .formulario textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bbb6b6;
+    border-radius: 6px;
+
+}
+
+.formulario textarea{
+    resize: vertical;
+    height: 100px;
+}
+
+.boton-enviar{
+    background-color: #f0c14b;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.boton-enviar:hover {
+    background-color: #1a1a1a;
+    color: rgb(250, 250, 250);
+    transition: background-color 0.5s ease;
+}
 /*media queries*/
 @media screen and (min-width: 768px) {
 
@@ -325,6 +390,9 @@ h1, h2, h3 {
     }
     .vehiculo{
         width: 100%;
+    }
+    .vehiculo img{
+        object-fit: scale-down;
     }
 
     .equipo-trabajo {

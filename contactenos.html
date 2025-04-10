@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <title>Kushau Motors - Contactanos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body >
+    <header class="main-header">
+        <div class="container-header">
+            <div class="nombre-empresa">
+                <h1><a href="index.html">Kushau Motors</a></h1>
+            </div>
+            <div class="logo-empresa">
+                <img src="./assets/images/logo.jpg" alt="">
+            </div>
+        </div>
+    </header>
+    <div class="formulario-container">
+        <h2>Atención al cliente</h2>
+        <p>¿Tienes dudas, comentarios o reclamos? Completa el siguiente formulario y te responderemos lo antes posible.</p>
+        <form>
+            <div class="formulario">
+                <label >Tipo de solicitud</label>
+                <select id="tipoSolicitud" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="comentario">Comentario</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="reclamo">Reclamo</option>
+                </select>
+            </div>
+
+            <div class="formulario">
+                <label for="tipoServicio">Tipo de servicio</label>
+                <select class="tipoServicio">
+                    <option value="">Selecciona una opción</option>
+                    <option value="venta">Venta</option>
+                    <option value="postventa">Postventa</option>
+                </select>
+            </div>
+
+            <div class="formulario">
+                <label>Motivo de contacto</label>
+                <select class="motivo">
+                    <option value="">Selecciona una opción</option>
+                    <option value="consulta-general">Consulta General</option>
+                    <option value="problema">Problema con un vehículo</option>
+                </select>
+            </div>
+
+            <div class="formulario">
+                <label >Nombres</label>
+                <input type="text" required>
+            </div>
+
+            <div class="formulario">
+                <label >Apellidos</label>
+                <input type="text" required>
+            </div>
+
+            <div class="formulario">
+                <label >RUT</label>
+                <input type="text" placeholder="11.111.111-0">
+            </div>
+
+            <div class="formulario">
+                <label >Email</label>
+                <input type="email" required>
+            </div>
+
+            <div class="formulario">
+                <label >Teléfono</label>
+                <input type="tel" id="telefono" placeholder="+56962767732">
+            </div>
+
+            <div class="formulario">
+                <label >Patente</label>
+                <input type="text" id="patente">
+            </div>
+
+            <div class="formulario">
+                <label >Ciudad</label>
+                <select class="ciudad">
+                    <option value="">Selecciona una ciudad</option>
+                    <option value="santiago">Santiago</option>
+                    <option value="valparaiso">Valparaíso</option>
+                    <option value="concepcion">Concepción</option>
+                </select>
+            </div>
+
+            <div class="formulario">
+                <label>Sucursal</label>
+                <select class="sucursal">
+                    <option value="">Selecciona una sucursal</option>
+                </select>
+            </div>
+
+            <div class="formulario">
+                <label for="comentario">Comentario</label>
+                <textarea id="comentario"></textarea>
+            </div>
+
+            <button type="submit" class="boton-enviar">Enviar</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-redes">
+                <a href="https://twitter.com"><img src="./assets/icons/twitter.png" alt=""></a>
+                <a href="https://youtube.com"><img src="./assets/icons/youtube.png" alt=""></a>
+                <a href="https://linkedin.com"><img src="./assets/icons/linkedin.png" alt=""></a>
+                <a href="https://instagram.com"><img src="./assets/icons/instagram.png" alt=""></a>
+                <a href="https://facebook.com"><img src="./assets/icons/facebook.png" alt=""></a>
+                <a href="https://tiktok.com"><img src="./assets/icons/tiktok.png" alt=""></a>
+            </div>
+
+            <div class="desarrollador">
+                <a href="desarrollador_perfil.html">Desarrollador</a>
+            </div>
+            
+            <div class="texto-footer">
+                <p>Talca, 2024</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
